@@ -9,13 +9,17 @@ import HeroLight from "./images/hero-light.jpg";
 import HeroDark from "./images/hero-dark.jpg";
 
 // Projects Images (add your images to the images directory and import below)
-import Logo from "./images/logo.svg";
+// import Logo from "./images/logo.svg";
+import MyBlog from "./images/myBlog.svg";
+import CreditCard from "./images/credit-card.svg";
+import Analytics from "./images/analytics.svg";
+
 
 /* START HERE
  **************************************************************
   Add your GitHub username (string - "YourUsername") below.
 */
-export const githubUsername = "Your GitHub username here";
+export const githubUsername = "Nikolay-Davydov";
 
 // Navbar Logo image
 export const navLogo = null;
@@ -35,7 +39,7 @@ export { HeroDark as Dark };
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I built this site with React, React Bootstrap, Redux, and the GitHub REST API.";
+  "I enjoy exploring new technologies and learning. I have created this website to showcase my skills and experience using React. On this platform, you can learn more about my projects, view my resume, and even contact me if you have any questions or would like to collaborate.";
 
 /* Skills
  ************************************************************** 
@@ -44,42 +48,42 @@ export const moreInfo =
 export const skillData = [
   {
     id: 1,
-    skill: <Icon icon="mdi:language-html5" className="display-4" />,
+    skill: <Icon icon="devicon:html5" className="display-4" />,
     name: "HTML5",
   },
   {
     id: 2,
-    skill: <Icon icon="ion:logo-css3" className="display-4" />,
+    skill: <Icon icon="devicon:css3" className="display-4" />,
     name: "CSS3",
   },
   {
     id: 3,
-    skill: <Icon icon="fa6-brands:js" className="display-4" />,
+    skill: <Icon icon="logos:javascript" className="display-4" />,
     name: "JavaScript",
   },
   {
     id: 4,
-    skill: <Icon icon="ri:bootstrap-fill" className="display-4" />,
-    name: "BootStrap",
-  },
-  {
-    id: 5,
-    skill: <Icon icon="mdi:react" className="display-4" />,
+    skill: <Icon icon="logos:react" className="display-4" />,
     name: "React",
   },
   {
+    id: 5,
+    skill: <Icon icon="logos:python" className="display-4" />,
+    name: "Puthon",
+  },
+  {
     id: 6,
-    skill: <Icon icon="file-icons:styledcomponents" className="display-4" />,
-    name: "Styled Components",
+    skill: <Icon icon="devicon-plain:django" className="display-4" />,
+    name: "django",
   },
   {
     id: 7,
-    skill: <Icon icon="akar-icons:redux-fill" className="display-4" />,
-    name: "Redux",
+    skill: <Icon icon="logos:postgresql" className="display-4" />,
+    name: "PostgreSQL",
   },
   {
     id: 8,
-    skill: <Icon icon="bi:git" className="display-4" />,
+    skill: <Icon icon="devicon:git" className="display-4" />,
     name: "Git",
   },
   {
@@ -90,19 +94,28 @@ export const skillData = [
 ];
 
 // Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
-export const resume = null;
+export const resume = "https://drive.google.com/file/d/1I9an98aO2hmmc1MztUVe895RxtsyL_1-/view?usp=sharing";
 
 /* Projects
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["example-1", "example-2", "example-3"];
+export const filteredProjects = ["ahj-code-4.1-hw", "ahj-my_blog", "ahj-ECOMSELLER"];
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 7-8)
 export const projectCardImages = [
   {
-    name: "example-1",
-    image: Logo,
+    name: "ahj-code-4.1-hw",
+    // image: Logo,
+    image: CreditCard,
+  },
+  {
+    name: "ahj-my_blog",
+    image: MyBlog,
+  },
+  {
+    name: "ahj-ECOMSELLER",
+    image: Analytics,
   },
 ];
 
@@ -111,7 +124,7 @@ export const projectCardImages = [
   Add your formspree endpoint below.
   https://formspree.io/
 */
-export const formspreeUrl = "https://formspree.io/f/YourEndpoint";
+export const formspreeUrl = "https://formspree.io/f/mrbzeoyk";
 
 // Footer icons theme (light or dark)
 export const footerTheme = "dark";
