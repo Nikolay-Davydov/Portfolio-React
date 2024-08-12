@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-React/static/css/main.372dc58a.css",
-    "main.js": "/Portfolio-React/static/js/main.39d9baf0.js",
+    "main.js": "/Portfolio-React/static/js/main.8f717635.js",
     "static/media/hero-dark.jpg": "/Portfolio-React/static/media/hero-dark.37f2556d620821979e99.jpg",
     "static/media/hero-light.jpg": "/Portfolio-React/static/media/hero-light.78b77836d8aee4d7d3cb.jpg",
     "service-worker.js": "/Portfolio-React/service-worker.js",
@@ -9,11 +9,14 @@
     "static/media/defaultNavLogo.svg": "/Portfolio-React/static/media/defaultNavLogo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "static/media/logo.svg": "/Portfolio-React/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Portfolio-React/index.html",
+    "static/media/credit-card.svg": "/Portfolio-React/static/media/credit-card.2d2ff346c12a4a5d9c07441e272cd4b5.svg",
+    "static/media/analytics.svg": "/Portfolio-React/static/media/analytics.b92107cae8ecc3165b39b7e786338197.svg",
+    "static/media/myBlog.svg": "/Portfolio-React/static/media/myBlog.c8682d7dbd309a06afa0f55a1a441bb5.svg",
     "main.372dc58a.css.map": "/Portfolio-React/static/css/main.372dc58a.css.map",
-    "main.39d9baf0.js.map": "/Portfolio-React/static/js/main.39d9baf0.js.map"
+    "main.8f717635.js.map": "/Portfolio-React/static/js/main.8f717635.js.map"
   },
   "entrypoints": [
     "static/css/main.372dc58a.css",
-    "static/js/main.39d9baf0.js"
+    "static/js/main.8f717635.js"
   ]
 }
